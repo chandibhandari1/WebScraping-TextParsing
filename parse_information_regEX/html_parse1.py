@@ -52,8 +52,7 @@ print(admin_sec)
 
 with open('doc1.html','r') as f:
     con = f.read()
-    clean_text =BeautifulSoup(con, 'lxml').text.strip()
-    lines = clean_text.split('\n')
+    lines = con.split('\n')
     full_text = ''
     for lin in lines:
         full_text +=lin
