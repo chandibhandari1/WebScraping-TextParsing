@@ -41,5 +41,6 @@ text_inBetween = string_check[string_check.index(a)+len(a):] # or
 text_inBetween2 = string_check[string_check.find(a)+len(a):]
 # between a and b
 text_inBetween3 = string_check[string_check.index(a)+len(a):string_check.index(b)] #or
+# Between A and b but inlcude a
 text_inBetween4 = a + string_check[string_check.find(a)+len(a):string_check.find(b)] # including the key word
 print(text_inBetween4)
