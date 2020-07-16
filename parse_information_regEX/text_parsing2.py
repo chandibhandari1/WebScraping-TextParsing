@@ -1,3 +1,5 @@
+"""This is 2nd day: we define class method and without looping
+Next class: we define class method and looping"""
 import numpy as np
 import pandas as pd
 import sys

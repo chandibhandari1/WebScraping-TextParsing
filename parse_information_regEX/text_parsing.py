@@ -1,3 +1,5 @@
+"""This is 1st day: we manually parse the information
+Next class: we define class method"""
 import numpy as np
 import pandas as pd
 import sys
